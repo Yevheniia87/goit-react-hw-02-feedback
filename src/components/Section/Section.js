@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styles from "../Section/section.module.css";
 
 function Section({ title, children }) {
   return (
     <>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
       {children}
     </>
   );

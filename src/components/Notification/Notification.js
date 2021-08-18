@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "../Notification/notification.module.css";
 function Notification({ message }) {
   return (
     <>
-      <p>{message}</p>
+      <p className={styles.notification}>{message}</p>
     </>
   );
 }

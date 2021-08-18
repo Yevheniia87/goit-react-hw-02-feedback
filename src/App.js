@@ -38,7 +38,6 @@ class App extends React.Component {
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
-
         <Section title={"Statistics"}>
           {total !== 0 ? (
             <Statistics

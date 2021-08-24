@@ -17,9 +17,9 @@ function Statistics({ good, neutral, bad, total, positivePercentage }) {
 }
 Statistics.propTypes = {
   good: PropTypes.number.isRequired,
-  Neutral: PropTypes.number.isRequired,
-  Bad: PropTypes.number.isRequired,
-  Total: PropTypes.number.isRequired,
-  Positive: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  positive: PropTypes.number.isRequired,
 };
 export default Statistics;
